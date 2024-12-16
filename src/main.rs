@@ -1,6 +1,8 @@
 mod hello;
 
+use hello::hey;
+
 fn main() -> () {
-    hello::hello();
+    hey::hello();
     // println!("Hello, world!");
 }
